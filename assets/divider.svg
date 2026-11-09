@@ -1,15 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="34" viewBox="0 0 840 34" role="img" aria-label="">
-<style>
-.prog { animation: prog 7s infinite; }
-@keyframes prog {
-  0% { width: 0; animation-timing-function: steps(40, end); }
-  80% { width: 820px; }
-  95% { width: 820px; }
-  96% { width: 0; }
-  100% { width: 0; }
-}
-</style>
-<defs><clipPath id="c"><rect class="prog" x="10" y="0" width="0" height="34"/></clipPath></defs>
+<defs><clipPath id="c"><rect x="10" y="0" width="0" height="34"><animate attributeName="width" calcMode="discrete" dur="7s" repeatCount="indefinite" keyTimes="0.0000;0.0200;0.0400;0.0600;0.0800;0.1000;0.1200;0.1400;0.1600;0.1800;0.2000;0.2200;0.2400;0.2600;0.2800;0.3000;0.3200;0.3400;0.3600;0.3800;0.4000;0.4200;0.4400;0.4600;0.4800;0.5000;0.5200;0.5400;0.5600;0.5800;0.6000;0.6200;0.6400;0.6600;0.6800;0.7000;0.7200;0.7400;0.7600;0.7800;0.8000;0.96;1" values="0.0;20.5;41.0;61.5;82.0;102.5;123.0;143.5;164.0;184.5;205.0;225.5;246.0;266.5;287.0;307.5;328.0;348.5;369.0;389.5;410.0;430.5;451.0;471.5;492.0;512.5;533.0;553.5;574.0;594.5;615.0;635.5;656.0;676.5;697.0;717.5;738.0;758.5;779.0;799.5;820.0;0;0"/></rect></clipPath></defs>
 <rect x="0" y="0" width="840" height="34" fill="#c0c0c0"/>
 <rect x="8" y="7" width="824" height="20" fill="#fff"/>
 <path d="M6 29V5H834" fill="none" stroke="#808080" stroke-width="2"/>

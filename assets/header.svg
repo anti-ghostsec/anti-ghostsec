@@ -7,7 +7,8 @@
 <style>
 .txt { font: 22px 'Courier New', 'DejaVu Sans Mono', monospace; fill: #33ff66; }
 .prompt { font: 22px 'Courier New', 'DejaVu Sans Mono', monospace; fill: #c0c0c0; }
-.cur { fill: #33ff66; animation: blink 1s steps(2, start) infinite; }
+.cur { fill: #33ff66; }
+.blink { animation: blink 1s steps(2, start) infinite; }
 .title { font: bold 15px 'MS Sans Serif', Tahoma, 'DejaVu Sans', sans-serif; fill: #fff; }
 .small { font: 13px Tahoma, 'DejaVu Sans', sans-serif; fill: #000; }
 @keyframes blink { to { visibility: hidden; } }
@@ -16,86 +17,6 @@
 .glow { animation: glow 3s ease-in-out infinite; }
 @keyframes glow { 50% { opacity: 0.55; } }
 
-.m0 { animation: t0 20.0s infinite; }
-@keyframes t0 {
-  0% { width: 0; }
-  0.000% { width: 0; animation-timing-function: steps(56, end); }
-  11.250% { width: 739.2px; }
-  21.250% { width: 739.2px; animation-timing-function: steps(12, end); }
-  24.250% { width: 0; }
-  100% { width: 0; }
-}
-.c0 { animation: k0 20.0s infinite; }
-@keyframes k0 {
-  0% { transform: translateX(0); opacity: 0; }
-  0.000% { opacity: 0; }
-  0.000% { transform: translateX(0); opacity: 1; animation-timing-function: steps(56, end); }
-  11.250% { transform: translateX(739.2px); }
-  21.250% { transform: translateX(739.2px); animation-timing-function: steps(12, end); }
-  24.250% { transform: translateX(0); opacity: 1; }
-  24.260% { opacity: 0; }
-  100% { opacity: 0; }
-}
-.m1 { animation: t1 20.0s infinite; }
-@keyframes t1 {
-  0% { width: 0; }
-  25.000% { width: 0; animation-timing-function: steps(47, end); }
-  36.250% { width: 620.4px; }
-  46.250% { width: 620.4px; animation-timing-function: steps(12, end); }
-  49.250% { width: 0; }
-  100% { width: 0; }
-}
-.c1 { animation: k1 20.0s infinite; }
-@keyframes k1 {
-  0% { transform: translateX(0); opacity: 0; }
-  24.990% { opacity: 0; }
-  25.000% { transform: translateX(0); opacity: 1; animation-timing-function: steps(47, end); }
-  36.250% { transform: translateX(620.4px); }
-  46.250% { transform: translateX(620.4px); animation-timing-function: steps(12, end); }
-  49.250% { transform: translateX(0); opacity: 1; }
-  49.260% { opacity: 0; }
-  100% { opacity: 0; }
-}
-.m2 { animation: t2 20.0s infinite; }
-@keyframes t2 {
-  0% { width: 0; }
-  50.000% { width: 0; animation-timing-function: steps(48, end); }
-  61.250% { width: 633.6px; }
-  71.250% { width: 633.6px; animation-timing-function: steps(12, end); }
-  74.250% { width: 0; }
-  100% { width: 0; }
-}
-.c2 { animation: k2 20.0s infinite; }
-@keyframes k2 {
-  0% { transform: translateX(0); opacity: 0; }
-  49.990% { opacity: 0; }
-  50.000% { transform: translateX(0); opacity: 1; animation-timing-function: steps(48, end); }
-  61.250% { transform: translateX(633.6px); }
-  71.250% { transform: translateX(633.6px); animation-timing-function: steps(12, end); }
-  74.250% { transform: translateX(0); opacity: 1; }
-  74.260% { opacity: 0; }
-  100% { opacity: 0; }
-}
-.m3 { animation: t3 20.0s infinite; }
-@keyframes t3 {
-  0% { width: 0; }
-  75.000% { width: 0; animation-timing-function: steps(28, end); }
-  86.250% { width: 369.6px; }
-  96.250% { width: 369.6px; animation-timing-function: steps(12, end); }
-  99.250% { width: 0; }
-  100% { width: 0; }
-}
-.c3 { animation: k3 20.0s infinite; }
-@keyframes k3 {
-  0% { transform: translateX(0); opacity: 0; }
-  74.990% { opacity: 0; }
-  75.000% { transform: translateX(0); opacity: 1; animation-timing-function: steps(28, end); }
-  86.250% { transform: translateX(369.6px); }
-  96.250% { transform: translateX(369.6px); animation-timing-function: steps(12, end); }
-  99.250% { transform: translateX(0); opacity: 1; }
-  99.260% { opacity: 0; }
-  100% { opacity: 0; }
-}
 </style>
 <!-- window -->
 <rect x="0" y="0" width="840" height="230" fill="#c0c0c0"/>
@@ -119,18 +40,18 @@
 <rect x="14" y="62" width="812" height="122" fill="url(#scan)"/>
 <text x="44" y="100" class="prompt">C:\ANTI-GHOSTSEC&gt; type README.TXT</text>
 
-  <clipPath id="clip0"><rect class="m0" x="44" y="128" height="32" width="0"/></clipPath>
-  <text x="44" y="150" clip-path="url(#clip0)" class="txt">Private software for people who'd rather not be watched.</text>
-  <g class="c0" opacity="0"><rect class="cur" x="45" y="131" width="11.2" height="22"/></g>
-  <clipPath id="clip1"><rect class="m1" x="44" y="128" height="32" width="0"/></clipPath>
-  <text x="44" y="150" clip-path="url(#clip1)" class="txt">An operating system that looks like Windows 95.</text>
-  <g class="c1" opacity="0"><rect class="cur" x="45" y="131" width="11.2" height="22"/></g>
-  <clipPath id="clip2"><rect class="m2" x="44" y="128" height="32" width="0"/></clipPath>
-  <text x="44" y="150" clip-path="url(#clip2)" class="txt">A browser, a messenger, an editor. No telemetry.</text>
-  <g class="c2" opacity="0"><rect class="cur" x="45" y="131" width="11.2" height="22"/></g>
-  <clipPath id="clip3"><rect class="m3" x="44" y="128" height="32" width="0"/></clipPath>
-  <text x="44" y="150" clip-path="url(#clip3)" class="txt">Your computer works for you.</text>
-  <g class="c3" opacity="0"><rect class="cur" x="45" y="131" width="11.2" height="22"/></g>
+  <clipPath id="clip0"><rect x="44" y="128" height="32" width="0"><animate attributeName="width" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.00201;0.00402;0.00603;0.00804;0.01004;0.01205;0.01406;0.01607;0.01808;0.02009;0.0221;0.02411;0.02612;0.02813;0.03013;0.03214;0.03415;0.03616;0.03817;0.04018;0.04219;0.0442;0.04621;0.04821;0.05022;0.05223;0.05424;0.05625;0.05826;0.06027;0.06228;0.06429;0.06629;0.0683;0.07031;0.07232;0.07433;0.07634;0.07835;0.08036;0.08237;0.08438;0.08638;0.08839;0.0904;0.09241;0.09442;0.09643;0.09844;0.10045;0.10246;0.10446;0.10647;0.10848;0.11049;0.1125;0.215;0.2175;0.22;0.2225;0.225;0.2275;0.23;0.2325;0.235;0.2375;0.24;0.2425;1" values="0.0;13.2;26.4;39.6;52.8;66.0;79.2;92.4;105.6;118.8;132.0;145.2;158.4;171.6;184.8;198.0;211.2;224.4;237.6;250.8;264.0;277.2;290.4;303.6;316.8;330.0;343.2;356.4;369.6;382.8;396.0;409.2;422.4;435.6;448.8;462.0;475.2;488.4;501.6;514.8;528.0;541.2;554.4;567.6;580.8;594.0;607.2;620.4;633.6;646.8;660.0;673.2;686.4;699.6;712.8;726.0;739.2;677.6;616.0;554.4;492.8;431.2;369.6;308.0;246.4;184.8;123.2;61.6;0.0;0.0"/></rect></clipPath>
+  <g clip-path="url(#clip0)"><text x="44" y="150" class="txt">Private software for people who'd rather not be watched.</text></g>
+  <g class="blink"><rect class="cur" x="45" y="131" width="11.2" height="22" opacity="0"><animate attributeName="x" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.00201;0.00402;0.00603;0.00804;0.01004;0.01205;0.01406;0.01607;0.01808;0.02009;0.0221;0.02411;0.02612;0.02813;0.03013;0.03214;0.03415;0.03616;0.03817;0.04018;0.04219;0.0442;0.04621;0.04821;0.05022;0.05223;0.05424;0.05625;0.05826;0.06027;0.06228;0.06429;0.06629;0.0683;0.07031;0.07232;0.07433;0.07634;0.07835;0.08036;0.08237;0.08438;0.08638;0.08839;0.0904;0.09241;0.09442;0.09643;0.09844;0.10045;0.10246;0.10446;0.10647;0.10848;0.11049;0.1125;0.215;0.2175;0.22;0.2225;0.225;0.2275;0.23;0.2325;0.235;0.2375;0.24;0.2425;1" values="45.0;58.2;71.4;84.6;97.8;111.0;124.2;137.4;150.6;163.8;177.0;190.2;203.4;216.6;229.8;243.0;256.2;269.4;282.6;295.8;309.0;322.2;335.4;348.6;361.8;375.0;388.2;401.4;414.6;427.8;441.0;454.2;467.4;480.6;493.8;507.0;520.2;533.4;546.6;559.8;573.0;586.2;599.4;612.6;625.8;639.0;652.2;665.4;678.6;691.8;705.0;718.2;731.4;744.6;757.8;771.0;784.2;722.6;661.0;599.4;537.8;476.2;414.6;353.0;291.4;229.8;168.2;106.6;45.0;45.0"/><animate attributeName="opacity" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.2425;1" values="1;0;0"/></rect></g>
+  <clipPath id="clip1"><rect x="44" y="128" height="32" width="0"><animate attributeName="width" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.25;0.25239;0.25479;0.25718;0.25957;0.26197;0.26436;0.26676;0.26915;0.27154;0.27394;0.27633;0.27872;0.28112;0.28351;0.2859;0.2883;0.29069;0.29309;0.29548;0.29787;0.30027;0.30266;0.30505;0.30745;0.30984;0.31223;0.31463;0.31702;0.31941;0.32181;0.3242;0.3266;0.32899;0.33138;0.33378;0.33617;0.33856;0.34096;0.34335;0.34574;0.34814;0.35053;0.35293;0.35532;0.35771;0.36011;0.3625;0.465;0.4675;0.47;0.4725;0.475;0.4775;0.48;0.4825;0.485;0.4875;0.49;0.4925;1" values="0.0;0.0;13.2;26.4;39.6;52.8;66.0;79.2;92.4;105.6;118.8;132.0;145.2;158.4;171.6;184.8;198.0;211.2;224.4;237.6;250.8;264.0;277.2;290.4;303.6;316.8;330.0;343.2;356.4;369.6;382.8;396.0;409.2;422.4;435.6;448.8;462.0;475.2;488.4;501.6;514.8;528.0;541.2;554.4;567.6;580.8;594.0;607.2;620.4;568.7;517.0;465.3;413.6;361.9;310.2;258.5;206.8;155.1;103.4;51.7;0.0;0.0"/></rect></clipPath>
+  <g clip-path="url(#clip1)"><text x="44" y="150" class="txt">An operating system that looks like Windows 95.</text></g>
+  <g class="blink"><rect class="cur" x="45" y="131" width="11.2" height="22" opacity="0"><animate attributeName="x" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.25;0.25239;0.25479;0.25718;0.25957;0.26197;0.26436;0.26676;0.26915;0.27154;0.27394;0.27633;0.27872;0.28112;0.28351;0.2859;0.2883;0.29069;0.29309;0.29548;0.29787;0.30027;0.30266;0.30505;0.30745;0.30984;0.31223;0.31463;0.31702;0.31941;0.32181;0.3242;0.3266;0.32899;0.33138;0.33378;0.33617;0.33856;0.34096;0.34335;0.34574;0.34814;0.35053;0.35293;0.35532;0.35771;0.36011;0.3625;0.465;0.4675;0.47;0.4725;0.475;0.4775;0.48;0.4825;0.485;0.4875;0.49;0.4925;1" values="45.0;45.0;58.2;71.4;84.6;97.8;111.0;124.2;137.4;150.6;163.8;177.0;190.2;203.4;216.6;229.8;243.0;256.2;269.4;282.6;295.8;309.0;322.2;335.4;348.6;361.8;375.0;388.2;401.4;414.6;427.8;441.0;454.2;467.4;480.6;493.8;507.0;520.2;533.4;546.6;559.8;573.0;586.2;599.4;612.6;625.8;639.0;652.2;665.4;613.7;562.0;510.3;458.6;406.9;355.2;303.5;251.8;200.1;148.4;96.7;45.0;45.0"/><animate attributeName="opacity" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.25;0.4925;1" values="0;1;0;0"/></rect></g>
+  <clipPath id="clip2"><rect x="44" y="128" height="32" width="0"><animate attributeName="width" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.5;0.50234;0.50469;0.50703;0.50938;0.51172;0.51406;0.51641;0.51875;0.52109;0.52344;0.52578;0.52812;0.53047;0.53281;0.53516;0.5375;0.53984;0.54219;0.54453;0.54688;0.54922;0.55156;0.55391;0.55625;0.55859;0.56094;0.56328;0.56563;0.56797;0.57031;0.57266;0.575;0.57734;0.57969;0.58203;0.58437;0.58672;0.58906;0.59141;0.59375;0.59609;0.59844;0.60078;0.60313;0.60547;0.60781;0.61016;0.6125;0.715;0.7175;0.72;0.7225;0.725;0.7275;0.73;0.7325;0.735;0.7375;0.74;0.7425;1" values="0.0;0.0;13.2;26.4;39.6;52.8;66.0;79.2;92.4;105.6;118.8;132.0;145.2;158.4;171.6;184.8;198.0;211.2;224.4;237.6;250.8;264.0;277.2;290.4;303.6;316.8;330.0;343.2;356.4;369.6;382.8;396.0;409.2;422.4;435.6;448.8;462.0;475.2;488.4;501.6;514.8;528.0;541.2;554.4;567.6;580.8;594.0;607.2;620.4;633.6;580.8;528.0;475.2;422.4;369.6;316.8;264.0;211.2;158.4;105.6;52.8;0.0;0.0"/></rect></clipPath>
+  <g clip-path="url(#clip2)"><text x="44" y="150" class="txt">A browser, a messenger, an editor. No telemetry.</text></g>
+  <g class="blink"><rect class="cur" x="45" y="131" width="11.2" height="22" opacity="0"><animate attributeName="x" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.5;0.50234;0.50469;0.50703;0.50938;0.51172;0.51406;0.51641;0.51875;0.52109;0.52344;0.52578;0.52812;0.53047;0.53281;0.53516;0.5375;0.53984;0.54219;0.54453;0.54688;0.54922;0.55156;0.55391;0.55625;0.55859;0.56094;0.56328;0.56563;0.56797;0.57031;0.57266;0.575;0.57734;0.57969;0.58203;0.58437;0.58672;0.58906;0.59141;0.59375;0.59609;0.59844;0.60078;0.60313;0.60547;0.60781;0.61016;0.6125;0.715;0.7175;0.72;0.7225;0.725;0.7275;0.73;0.7325;0.735;0.7375;0.74;0.7425;1" values="45.0;45.0;58.2;71.4;84.6;97.8;111.0;124.2;137.4;150.6;163.8;177.0;190.2;203.4;216.6;229.8;243.0;256.2;269.4;282.6;295.8;309.0;322.2;335.4;348.6;361.8;375.0;388.2;401.4;414.6;427.8;441.0;454.2;467.4;480.6;493.8;507.0;520.2;533.4;546.6;559.8;573.0;586.2;599.4;612.6;625.8;639.0;652.2;665.4;678.6;625.8;573.0;520.2;467.4;414.6;361.8;309.0;256.2;203.4;150.6;97.8;45.0;45.0"/><animate attributeName="opacity" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.5;0.7425;1" values="0;1;0;0"/></rect></g>
+  <clipPath id="clip3"><rect x="44" y="128" height="32" width="0"><animate attributeName="width" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.75;0.75402;0.75804;0.76205;0.76607;0.77009;0.77411;0.77812;0.78214;0.78616;0.79018;0.7942;0.79821;0.80223;0.80625;0.81027;0.81429;0.8183;0.82232;0.82634;0.83036;0.83437;0.83839;0.84241;0.84643;0.85045;0.85446;0.85848;0.8625;0.965;0.9675;0.97;0.9725;0.975;0.9775;0.98;0.9825;0.985;0.9875;0.99;0.9925;1" values="0.0;0.0;13.2;26.4;39.6;52.8;66.0;79.2;92.4;105.6;118.8;132.0;145.2;158.4;171.6;184.8;198.0;211.2;224.4;237.6;250.8;264.0;277.2;290.4;303.6;316.8;330.0;343.2;356.4;369.6;338.8;308.0;277.2;246.4;215.6;184.8;154.0;123.2;92.4;61.6;30.8;0.0;0.0"/></rect></clipPath>
+  <g clip-path="url(#clip3)"><text x="44" y="150" class="txt">Your computer works for you.</text></g>
+  <g class="blink"><rect class="cur" x="45" y="131" width="11.2" height="22" opacity="0"><animate attributeName="x" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.75;0.75402;0.75804;0.76205;0.76607;0.77009;0.77411;0.77812;0.78214;0.78616;0.79018;0.7942;0.79821;0.80223;0.80625;0.81027;0.81429;0.8183;0.82232;0.82634;0.83036;0.83437;0.83839;0.84241;0.84643;0.85045;0.85446;0.85848;0.8625;0.965;0.9675;0.97;0.9725;0.975;0.9775;0.98;0.9825;0.985;0.9875;0.99;0.9925;1" values="45.0;45.0;58.2;71.4;84.6;97.8;111.0;124.2;137.4;150.6;163.8;177.0;190.2;203.4;216.6;229.8;243.0;256.2;269.4;282.6;295.8;309.0;322.2;335.4;348.6;361.8;375.0;388.2;401.4;414.6;383.8;353.0;322.2;291.4;260.6;229.8;199.0;168.2;137.4;106.6;75.8;45.0;45.0"/><animate attributeName="opacity" calcMode="discrete" dur="20.0s" repeatCount="indefinite" keyTimes="0;0.75;0.9925;1" values="0;1;0;0"/></rect></g>
 </g>
 <!-- status bar -->
 <rect x="12" y="196" width="816" height="22" fill="none" stroke="#808080"/>
