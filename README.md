@@ -36,7 +36,7 @@ Each one is small, starts fast, never phones home, and works on its own or as pa
 | 💬 | **[Whisker](https://github.com/anti-ghostsec/whisker)** | A Matrix client: every account signed in at once, hidden alt accounts, encrypted vaults |
 | 📝 | **[Folio](https://github.com/anti-ghostsec/folio)** | A calm text editor: writing first, code second, remembers nothing |
 | 📄 | **[Leaflet](https://github.com/anti-ghostsec/leaflet)** | PDFs and documents: read, fill in, annotate, edit DOCX/ODT, with no metadata left behind |
-| 🎬 | **[CutFrame](https://github.com/anti-ghostsec/CutFrame)** | A light video editor in Rust, growing towards a full timeline |
+| 🎬 | **[Flicker](https://github.com/anti-ghostsec/Flicker)** | A light video editor: multi-track timeline, live preview with sound, encrypted projects, exports with no metadata |
 | 🗄️ | **[Enclave](https://github.com/anti-ghostsec/Enclave)** | An encrypted file vault for Android, with no internet permission at all |
 
 ## 🧅 Networks without a company in the middle
