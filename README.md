@@ -7,6 +7,8 @@
 ![Tor](https://img.shields.io/badge/Tor-built%20in-7d4698?style=flat-square&logo=torproject)
 ![Windows 95 spirit](https://img.shields.io/badge/style-Windows%2095-008080?style=flat-square)
 
+**[anti-ghostsec.github.io](https://anti-ghostsec.github.io)**: every project on one page
+
 </div>
 
 <img src="assets/divider.svg" alt="" width="100%">
