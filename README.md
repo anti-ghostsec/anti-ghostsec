@@ -35,17 +35,27 @@ Each one is small, starts fast, never phones home, and works on its own or as pa
 | | Project | What it does |
 |:-:|---|---|
 | 🌐 | **[Wisp](https://github.com/anti-ghostsec/wisp)** | A small, privacy-focused web browser on WebKitGTK and GTK 4, with plugins |
-| 💬 | **[Whisker](https://github.com/anti-ghostsec/whisker)** | A Matrix client: every account signed in at once, hidden alt accounts, encrypted vaults |
+| 💬 | **[Whisker](https://github.com/anti-ghostsec/whisker)** | A Matrix client for Linux, Windows and Android: every account signed in at once, hidden alt accounts, AI agent accounts, encrypted vaults |
 | 📝 | **[Folio](https://github.com/anti-ghostsec/folio)** | A calm text editor: writing first, code second, remembers nothing |
 | 📄 | **[Leaflet](https://github.com/anti-ghostsec/leaflet)** | PDFs and documents: read, fill in, annotate, edit DOCX/ODT, with no metadata left behind |
 | 🎬 | **[Flicker](https://github.com/anti-ghostsec/Flicker)** | A light video editor: multi-track timeline, live preview with sound, encrypted projects, exports with no metadata |
+| 🔑 | **[PawKey](https://github.com/anti-ghostsec/PawKey)** | Two-factor codes in an encrypted vault, with Wisp-style sync, on Linux, Windows, macOS and Android |
+| 📺 | **[RetroRabbit](https://github.com/anti-ghostsec/retrorabbit)** | Your own little cable TV: always-on channels from the Internet Archive and your own videos |
+
+## 📱 Android, privately
+
+| | Project | What it does |
+|:-:|---|---|
 | 🗄️ | **[Enclave](https://github.com/anti-ghostsec/Enclave)** | An encrypted file vault for Android, with no internet permission at all |
+| 📱 | **[AnonpheneOS](https://github.com/anti-ghostsec/AnonpheneOS)** | A private, light Android on GrapheneOS: no logs, a hidden Secure Folder with passphrase and keyfiles (early testing) |
+| 🐾 | **[PurrDroid](https://github.com/anti-ghostsec/PurrDroid)** | Android in an encrypted virtual machine on Linux, with a hidden Android and nothing unencrypted outside RAM |
 
 ## 🧅 Networks without a company in the middle
 
 | | Project | What it does |
 |:-:|---|---|
 | 🛡️ | **[The Sentinel Protocol](https://github.com/anti-ghostsec/The-Sentinel-Protocol)** | A social network, messenger and rooms in one app, over Tor, run by volunteers |
+| 🐈 | **[anoncat](https://github.com/anti-ghostsec/anoncat)** | A privacy-focused Matrix homeserver (a tuwunel fork) |
 | 🍩 | **[Torus](https://github.com/anti-ghostsec/Torus)** | Build a website and host it as an onion service from your own PC or phone |
 
 ## 🔎 Tools
